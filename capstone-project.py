@@ -81,7 +81,7 @@ def perbarui_buku():
             print("Proses pembaruan buku dibatalkan. Kembali ke menu utama.\n")
             return
 
-        # Memeriksa apakah input adalah angka 1
+        # Memeriksa apakah input adalah angka 
         if id_buku_input.isdigit():
             id_buku = int(id_buku_input)
             for b in buku:
